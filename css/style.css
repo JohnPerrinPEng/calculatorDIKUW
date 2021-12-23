@@ -1,0 +1,20 @@
+:root {
+    --brand-blue: #51a3d6;
+    --brand-gray: #5b5b5b;
+    --accent-dark: #0f415c;
+    --brand-blue-dark: #4295cc;
+    --accent-light: #A4D9F5;
+    --background-blue: #EAF7FE;
+    --background-gray: #EFEFEF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--brand-gray);
+    background-color: var(--background-blue);
+}
+
+.link {
+    color: var(--accent-dark)
+}
+
