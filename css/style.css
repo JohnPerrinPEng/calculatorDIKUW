@@ -12,9 +12,82 @@ body {
     font-family: Arial, sans-serif;
     color: var(--brand-gray);
     background-color: var(--background-blue);
+    display:flex;
+    flex-flow: column;    
+    align-items: center;
+    min-width: 450px;
 }
 
 .link {
     color: var(--accent-dark)
 }
 
+.container {
+    width: 66vw;
+    height: 100vh;
+    background-color: var(--accent-light);
+    display:flex;
+    flex-flow: column;
+    justify-content: space-around;
+    border-radius: 16px;
+}
+
+.calcLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.dsplay {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    font-family: monospace;
+    background-color: var(--background-gray);
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+    border-radius: 4px;
+    min-height: 100px;
+}
+
+.dsply1 {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.dsply2 {
+    font-size: 30px;
+}
+
+.buttonContainer {
+    display:flex;
+    flex-flow: column;
+    background-color: var(--background-blue);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+.button {
+    border-radius: 8px;
+}
+
+.numPad {
+    display: flex;
+    flex-flow: column;
+    /* grid-row: 3;
+    grid-column: 3; */
+}
+
+.numPadRow {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.numBtn {
+    width: 15%;
+    margin: 2px;
+    font-weight: bold;
+};
