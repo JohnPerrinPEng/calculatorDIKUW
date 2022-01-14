@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Titillium Web, sans-serif;
     color: var(--brand-gray);
     background-color: var(--background-blue);
     display:flex;
@@ -23,8 +23,8 @@ body {
 }
 
 .container {
-    width: 66vw;
-    height: 100vh;
+    width: 600px;
+    height: 90vh;
     background-color: var(--accent-light);
     display:flex;
     flex-flow: column;
@@ -43,7 +43,7 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    font-family: monospace;
+    font-family: orbitron,monospace;
     background-color: var(--background-gray);
     margin: 10px;
     padding: 10px;
@@ -53,24 +53,23 @@ body {
 }
 
 .dsply1 {
-    font-size: 15px;
+    font-size: 30px;
     padding: 5px;
 }
 
 .dsply2 {
-    font-size: 30px;
+    font-size: 60px;
 }
 
 .buttonContainer {
     display:flex;
     flex-flow: column;
+    min-width: 350 px;
     background-color: var(--background-blue);
     border-radius: 8px;
     margin: 10px;
     padding: 10px;
-}
-.button {
-    border-radius: 8px;
+    
 }
 
 .numPad {
@@ -86,8 +85,22 @@ body {
     justify-content: space-around;
 }
 
-.numBtn {
+.button {
+    border-radius: 8px;
     width: 15%;
     margin: 2px;
     font-weight: bold;
+    min-width: 4em;
+}
+
+.numBtn {
+    background-color: var(--accent-light)
+};
+
+.fnBtnEmpty {
+    background-color: var(--accent-dark)
+}
+
+.btnHighlight {
+    background: yellow;
 };
